@@ -34,8 +34,8 @@ public class Collection {
 
     public int countShapesByColour(String colour) {
         int result = 0;
-        for (Shape shape:shapes){
-            if (shape.getColour().equals(colour))             {
+        for (Shape shape : shapes) {
+            if (shape.getColour().equals(colour)) {
                 result++;
             }
         }
@@ -44,8 +44,8 @@ public class Collection {
 
     public int countRectangles() {
         int result = 0;
-        for (Shape shape:shapes){
-            if (shape instanceof Rectangle)             {
+        for (Shape shape : shapes) {
+            if (shape instanceof Rectangle) {
                 result++;
             }
         }
